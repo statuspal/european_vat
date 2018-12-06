@@ -53,9 +53,9 @@ defmodule EuropeanVat.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    [{:httpoison, "~> 0.10.0"},
+    [{:httpoison, "~> 0.11.0"},
      {:sweet_xml,  "~> 0.6.0"},
-     {:poison, "~> 2.0"},
+     {:poison, "~> 3.0"},
      {:earmark, "~> 1.0.0", only: :dev},
      {:ex_doc, "~> 0.14", only: :dev},
      {:exvcr, "~> 0.7", only: :test}]
